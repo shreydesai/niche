@@ -1,0 +1,5 @@
+category,unprocessed,processed
+news,16073,11837
+entertainment,16129,9915
+fun,16107,8140
+sports,16096,7968
