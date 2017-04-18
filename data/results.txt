@@ -1,0 +1,36 @@
+File            Experiment
+exp1.csv        Unigram features
+exp2.csv        Bigram features
+exp3.csv        Unigram POS features
+exp4.csv        Bigram POS features
+exp5.csv        All features
+
+exp1.csv Results
+-------------------
+MultinomialNB: 0.8174468085106384
+NuSVC: 0.859148936170213
+Logistic Regression: 0.9165957446808518
+
+exp2.csv Results
+-------------------
+MultinomialNB: 0.9302127659574474
+NuSVC: 0.5893617021276597
+Logistic Regression: 0.9097872340425538
+
+exp3.csv Results
+-------------------
+MultinomialNB: 0.5378723404255318
+NuSVC: 0.538723404255319
+Logistic Regression: 0.5446808510638296
+
+exp4.csv Results
+-------------------
+MultinomialNB: 0.48765957446808517
+NuSVC: 0.6999999999999998
+Logistic Regression: 0.7974468085106382
+
+exp5.csv Results
+-------------------
+MultinomialNB: 0.8310638297872345
+NuSVC: 0.8795744680851069
+Logistic Regression: 0.936170212765958

@@ -1,0 +1,95 @@
+entertainment
+(la, la, land) 148
+(#oscars, red, carpet) 50
+(mary, tyler, moore) 46
+(samuel, l, jackson) 39
+(#oscars, best, picture) 39
+(jamie, lynn, spears) 38
+(tarek, el, moussa) 37
+(christina, el, moussa) 35
+(red, carpet, arrivals) 35
+(saturday, night, live) 33
+
+games
+(mass, effect, andromeda) 287
+(#steamnewrelease, daily, deal) 232
+(#steamdailydeal, daily, deal) 209
+(steam, early, access) 194
+(resident, evil, 7) 175
+(horizon, zero, dawn) 170
+(new, dlc, available) 120
+(ghost, recon, wildlands) 85
+(#midweekmadness, daily, deal) 74
+(resident, evil, revelations) 71
+
+weather
+(cdt, tornado, warning) 1060
+(pm, cdt, tornado) 955
+(cst, tornado, warning) 949
+(pm, cst, tornado) 709
+(cst, #spc, day1) 652
+(#spc, day1, outlook) 526
+(cst, #spc, day2) 395
+(est, tornado, warning) 393
+(austin, camp, mabry) 389
+(austin, city, austin) 388
+
+science
+(million, years, ago) 60
+(international, space, station) 51
+(great, barrier, reef) 50
+(dwarf, planet, ceres) 42
+(week's, working, life) 35
+(arctic, sea, ice) 34
+(neil, degrasse, tyson) 33
+(week's, policy, forum) 31
+(science, weekly, podcast) 29
+(new, study, finds) 27
+
+sports
+(@toyota, #pulseofthenation, poll) 153
+(years, ago, today) 114
+(super, bowl, li) 105
+(poll, let's, go) 81
+(#pulseofthenation, poll, let's) 79
+(world, baseball, classic) 56
+(via, mlb, fans) 52
+(must, follow, @mlb) 52
+(top, 10, plays) 51
+(40-yard, dash, #nflcombine) 47
+
+politics
+(health, care, bill) 159
+(president, donald, trump) 136
+(trump's, travel, ban) 112
+(national, security, adviser) 105
+(gop, health, care) 105
+(supreme, court, nominee) 100
+(new, travel, ban) 89
+(trump, travel, ban) 84
+(white, house, says) 81
+(marine, le, pen) 66
+
+technology
+(partner, content, via) 73
+(galaxy, note, 7) 71
+(top, big, data) 55
+(big, data, news) 51
+(dzone, big, data) 48
+(super, mario, run) 45
+(samsung, galaxy, s8) 37
+(content, via, @bbvaopenmind) 36
+(new, york, times) 35
+(mobile, world, congress) 30
+
+fun
+(eve, eve, eve) 157
+(dog, 911, omg) 24
+(911, what's, ur) 22
+(dark, olive, green) 21
+(dog, 911, what's) 21
+(911, omg, dog) 18
+(paul, blart, mall) 17
+(omg, dog, omg) 17
+(light, forest, green) 17
+(blart, mall, cop) 17

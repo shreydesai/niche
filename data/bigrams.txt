@@ -1,0 +1,95 @@
+entertainment
+(red, carpet) 398
+(donald, trump) 326
+(box, office) 297
+(best, picture) 267
+(super, bowl) 210
+(star, wars) 178
+(la, la) 175
+(wins, best) 156
+(kim, kardashian) 156
+(via, @toofab) 152
+
+games
+(daily, deal) 767
+(resident, evil) 710
+(nintendo, switch) 451
+(mass, effect) 418
+(xbox, one) 375
+(effect, andromeda) 288
+(final, fantasy) 282
+(star, wars) 269
+(#steamnewrelease, daily) 232
+(@minecraft, #storymode) 224
+
+weather
+(tornado, warning) 3108
+(cst, #spc) 1164
+(cdt, tornado) 1060
+(pm, cdt) 974
+(cst, tornado) 952
+(#atxwx, #atxweather) 793
+(heavy, rain) 740
+(#spc, day1) 729
+(pm, cst) 726
+(thunderstorm, outlook) 687
+
+science
+(climate, change) 521
+(years, ago) 241
+(study, finds) 208
+(new, study) 197
+(new, video) 182
+(new, species) 167
+(black, hole) 145
+(solar, system) 143
+(first, time) 142
+(could, help) 138
+
+sports
+(super, bowl) 602
+(tom, brady) 347
+(lebron, james) 257
+(russell, westbrook) 241
+(ncaa, tournament) 240
+(years, ago) 225
+(kevin, durant) 198
+(last, night) 189
+(steph, curry) 168
+(demarcus, cousins) 166
+
+politics
+(donald, trump) 1474
+(white, house) 1120
+(#hw, #cdnpoli) 1048
+(theresa, may) 894
+(president, trump) 646
+(supreme, court) 629
+(health, care) 549
+(travel, ban) 543
+(jeremy, corbyn) 537
+(donald, trump's) 429
+
+technology
+(big, data) 390
+(machine, learning) 329
+(via, @verge) 294
+(artificial, intelligence) 290
+(data, science) 228
+(silicon, valley) 189
+(fake, news) 187
+(windows, 10) 186
+(virtual, reality) 167
+(social, media) 158
+
+fun
+(donald, trump) 180
+(eve, eve) 165
+(looks, like) 164
+(harry, potter) 154
+(don't, know) 141
+(happy, birthday) 137
+(i'm, going) 124
+(every, time) 117
+(look, like) 115
+(last, night) 97

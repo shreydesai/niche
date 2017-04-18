@@ -1,0 +1,95 @@
+entertainment
+new 3085
+video 2165
+#oscars 1603
+says 1436
+star 1427
+watch 1371
+best 1302
+trump 1260
+first 1165
+see 1043
+
+games
+new 3083
+available 2007
+game 1926
+2 1696
+steam 1679
+games 1546
+get 1492
+#steamnewrelease 1455
+ps4 1342
+one 1339
+
+weather
+rain 4539
+warning 3824
+tornado 3636
+pm 2888
+weather 2851
+snow 2709
+day 2704
+cst 2668
+forecast 2398
+today 2389
+
+science
+new 3761
+science 2390
+scientists 1982
+via 1862
+could 1669
+may 1367
+us 1277
+space 1255
+first 1157
+one 1047
+
+sports
+game 1892
+win 1418
+new 1201
+team 1171
+vs 1129
+via 1105
+nfl 1097
+one 1081
+first 1076
+season 1070
+
+politics
+trump 9123
+says 3440
+trump's 2789
+brexit 2277
+president 2122
+new 2092
+donald 1993
+house 1975
+#hw 1680
+may 1616
+
+technology
+new 2941
+#cdntech 2448
+data 1827
+google 1722
+apple 1625
+tech 1450
+facebook 1266
+app 1126
+says 908
+big 849
+
+fun
+like 2683
+i'm 2225
+it's 2120
+people 1905
+green 1905
+don't 1749
+get 1603
+one 1567
+blue 1315
+u 1224
