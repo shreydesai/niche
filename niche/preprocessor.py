@@ -92,7 +92,8 @@ def preprocess_tweets(read_dir, write_dir, category,
         write_path = os.path.join(write_dir, doc)
         f = open(write_path, 'a')
 
-        for line in fileinput.input([read_path]):
+        for line in fileinput.input(files=(read_path),
+            openhook=fileinput.hook_encoded('ISO-8859-1')):
             # Apply various filters to the tweet
             tweet = line.rstrip()
             cleaned_tweet = clean_tweet(tweet, blacklist,
@@ -147,8 +148,9 @@ def clean_tweet(tweet, blacklist, whitelist, min_tweet_length):
         return None
 
 if __name__ == '__main__':
-    categories = ['news', 'entertainment', 'sports', 'fun']
     parent = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    categories = ['entertainment', 'sports', 'fun', 'games',
+                    'weather', 'politics', 'science', 'technology']
 
     # Process tweets from each category
     for category in categories:

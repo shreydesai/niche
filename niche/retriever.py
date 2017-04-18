@@ -70,8 +70,8 @@ def get_tweets(api, screen_name, count):
 
 if __name__ == '__main__':
     parent = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    categories = ['news', 'entertainment', 'fun', 'sports']
-
+    categories = ['entertainment', 'sports', 'fun', 'games',
+                    'weather', 'politics', 'science', 'technology']
     # Set up Tweepy API object
     auth = OAuthHandler(API_KEY, API_SECRET)
     auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
