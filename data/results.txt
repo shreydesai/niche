@@ -25,9 +25,9 @@ Logistic Regression: 0.5446808510638296
 
 exp4.csv Results
 -------------------
-MultinomialNB: 0.48765957446808517
-NuSVC: 0.6999999999999998
-Logistic Regression: 0.7974468085106382
+MultinomialNB: 0.5668085106382977
+NuSVC: 0.5702127659574467
+Logistic Regression: 0.5804255319148934
 
 exp5.csv Results
 -------------------
