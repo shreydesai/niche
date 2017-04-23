@@ -23,9 +23,9 @@ plt.xlabel('Number of Features')
 plt.ylabel('Time (sec)')
 
 # plots
-plt.plot(iters, nb_time, color='#80CED7')
-plt.plot(iters, svm_time, color='#007EA7')
-plt.plot(iters, lr_time, color='#003249')
+plt.scatter(iters, nb_time, s=np.pi * 3, color='#80CED7')
+plt.scatter(iters, svm_time, s=np.pi * 3, color='#007EA7')
+plt.scatter(iters, lr_time, s=np.pi * 3, color='#003249')
 
 # legend
 l1 = mpatches.Patch(label='NB', color='#80CED7')
@@ -33,7 +33,7 @@ l2 = mpatches.Patch(label='SVM', color='#007EA7')
 l3 = mpatches.Patch(label='LR', color='#003249')
 
 # focus box
-plt.axvspan(4500, 5200, linewidth=0, color='#000000', alpha=0.2)
+plt.axvspan(4900, 5100, linewidth=0, color='#000000', alpha=0.2)
 
 # legend
 plt.legend(
