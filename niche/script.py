@@ -38,7 +38,7 @@ def words(file):
     words = [word for sent in sents for word in sent if len(word) > 0]
     return words
 
-def features(document):
+def features(document, word_features):
     """Builds unigram features from document"""
     document_words = set(document)
     features = {}
@@ -56,12 +56,12 @@ def bigram_features(document):
         features['contains({})'.format(bigram)] = (bigram in document)
     return features
 
-def create_sets(documents, bigram):
+def create_sets(documents, word_features, bigram):
     """Creates training and test sets"""
-    if bigram:
-        feature_sets = [(bigram_features(d), c) for (d, c) in documents]
-    else:
-        feature_sets = [(features(d), c) for (d, c) in documents]
+    #if bigram:
+    #    feature_sets = [(bigram_features(d), c) for (d, c) in documents]
+    #else:
+    feature_sets = [(features(d, word_features), c) for (d, c) in documents]
     random.shuffle(feature_sets)
     cutoff = math.ceil(len(feature_sets) * 0.7)
     train_set, test_set = feature_sets[:cutoff], feature_sets[cutoff:]
@@ -172,7 +172,7 @@ if __name__ == '__main__':
         # Unigram options
         # random.shuffle(word_features)
         # word_features = word_features[:FEATURES]
-        # train_set, test_set = create_sets(documents, bigram=False)
+        # train_set, test_set = create_sets(documents, word_features, False)
 
         # Bigram options
         # random.shuffle(feature_sets)
