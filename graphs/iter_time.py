@@ -13,8 +13,8 @@ for line in f.read().strip().split('\n'):
     tokens = [float(token) for token in line.split(',')]
     num, a1, a2, a3, t1, t2, t3 = tokens
     iters.append(num)
-    nb_time.append(t1)
-    svm_time.append(t2)
+    nb_time.append(t2)
+    svm_time.append(t1)
     lr_time.append(t3)
 f.close()
 
@@ -23,9 +23,9 @@ plt.xlabel('Number of Features')
 plt.ylabel('Time (sec)')
 
 # plots
-plt.scatter(iters, nb_time, s=np.pi * 3, color='#80CED7')
-plt.scatter(iters, svm_time, s=np.pi * 3, color='#007EA7')
-plt.scatter(iters, lr_time, s=np.pi * 3, color='#003249')
+plt.plot(iters, nb_time, color='#80CED7')
+plt.plot(iters, svm_time, color='#007EA7')
+plt.plot(iters, lr_time, color='#003249')
 
 # legend
 l1 = mpatches.Patch(label='NB', color='#80CED7')
@@ -37,7 +37,7 @@ plt.axvspan(4900, 5100, linewidth=0, color='#000000', alpha=0.2)
 
 # legend
 plt.legend(
-    loc='upper right',
+    loc='lower right',
     edgecolor='#D8D8D8',
     framealpha=1,
     fancybox=False,

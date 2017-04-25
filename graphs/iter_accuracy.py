@@ -13,8 +13,8 @@ for line in f.read().strip().split('\n'):
     tokens = [float(token) for token in line.split(',')]
     num, a1, a2, a3, t1, t2, t3 = tokens
     iters.append(num)
-    nb_avg.append(a1)
-    svm_avg.append(a2)
+    nb_avg.append(a2)
+    svm_avg.append(a1)
     lr_avg.append(a3)
 f.close()
 
