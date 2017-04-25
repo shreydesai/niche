@@ -1,25 +1,31 @@
 import time
-from niche.script import setup_documents
+import random
+
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.svm import NuSVC
+from sklearn.linear_model import LogisticRegression
+
+from niche.script import setup_documents, create_sets, run_classifier
 
 documents, total_words = setup_documents()
 vocab = set(total_words)
-word_features = list(vocab)
+wf_master = list(vocab)
 
 START = 100
 END = 10000 + START
+ITERS = 25
 
 f = open('selection.csv', 'w+')
+feature_size = 100
 
 for i in range(START, END, 100):
-    feature_size = i
     nb_avg, svm_avg, lr_avg = (0,) * 3
     init_time, nb_time, svm_time, lr_time = (0,) * 4
 
-    for k in range(5):
+    for k in range(ITERS):
         t0 = time.time()
-        random.shuffle(word_features)
-        word_features = word_features[:FEATURES]
-        train_set, test_set = create_sets(documents, bigram=False)
+        word_features = wf_master[:feature_size]
+        train_set, test_set = create_sets(documents, word_features, False)
         init_time = (time.time() - t0)
 
         t1 = time.time()
@@ -41,16 +47,26 @@ for i in range(START, END, 100):
         svm_avg += svm_acc
         lr_avg += lr_acc
 
-    nb_avg /= 5
-    svm_avg /= 5
-    lr_avg /= 5
+    nb_avg /= ITERS
+    svm_avg /= ITERS
+    lr_avg /= ITERS
 
-    nb_time /= 5
-    svm_time /= 5
-    lr_time /= 5
+    nb_time /= ITERS
+    svm_time /= ITERS
+    lr_time /= ITERS
 
+    feature_size += 100
+
+    print('{},{},{},{},{},{},{}'.format(
+        i, nb_avg, svm_avg, lr_avg, nb_time, svm_time, lr_time
+    ))
+
+    f = open('selection.csv', '')
     f.write('{},{},{},{},{},{},{}\n'.format(
         i, nb_avg, svm_avg, lr_avg, nb_time, svm_time, lr_time
     ))
+    f.close()
+
+
 
 f.close()
